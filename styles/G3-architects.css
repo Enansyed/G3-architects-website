@@ -116,6 +116,7 @@
       border-left: 5px solid #FF900E;
       padding-left: 21px;
     }
+    
     .feature-card{
       padding: 30px;
       box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
@@ -127,6 +128,20 @@
       font-size: 1.25rem;
       margin-top: 0px;
       margin-bottom: 0px;
+    }
+    #experience-badge{
+      padding: 45px 42px;
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin-left: -100px;
+      margin-top: -100px;
+    }
+    #experience-year{
+      font-size: 4rem;
+      font-weight: 700;
+    }
+    .features-architect img{
+      width: 100%;
     }
     /* some fact related styles */
         .facts-container{
@@ -173,6 +188,7 @@
   @media screen and (max-width: 576px) {
     .navbar, 
     .nav-links, 
+    .features,
     .teams{
       flex-direction: column;
     }
@@ -182,6 +198,10 @@
     {
       display: grid;
       grid-template-columns: 1fr;
+    }
+    #experience-badge{
+      margin-top: 20px;
+      margin-left: 20px;
     }
     .facts-container, 
     .sponsor-companies
